@@ -6,6 +6,13 @@
     <meta name="http-equiv" content="30">
     <title>Test</title>
     <style>
+       * {box-sizing: border-box;}
+    
+       li a{
+           display: block;
+        float: left;
+
+       }
 
 
 @media  screen and (max-width: 800px){
@@ -16,13 +23,26 @@
     </style>
 </head>
 <body>
-    <div style="background-color: black; display:block; padding:5px; font-size: 50px; overflow:auto;">
+    <div style="background-color: black; display:block; margin:10px; font-size: 30px; overflow:hidden;">
+       <div>
+        <ul>
+         <li><a href="#home">Home</a></li>   
+         <li><a href="#about">About</a></li>  
+         <li><a href="#news">News</a></li>
+         <li><a href="#contact">Contact</a></li>  
+        </ul>
+        </div>
+
         <h1 style="text-align: center; color: #9a9a9a;">Learning HTML</h1>
-        <p style="color:blue;float: left;width: 20%; height:auto;">Coding is interesting; 
-            <br />yes it can be hectic at times but the feeling you get 
+        <p style="color:blue;float: left;width: 30%; height:auto;"><i><b>Coding</b></i> is interesting; 
+            <br />Yes it can be hectic at times but the feeling you get 
             when you make it work is just out of the world!</p>
             <a href="http://codearena.com" style="float:right; width: 30%;">Click here if you love coding</a>
-            <p style="float:center; width: 50%; color: #bebebe;">This is the main content; I guess</p>
+            <div style="float:center;width: auto;background-color:white;"><p style="float:center; color: #bebebe; margin-left: 20px;">
+                This is the main content; I guess</p></div>
+
+            <div style="float: center; padding: 10px;" ><img src="Classic-Car-Wallpaper-HD-Desktop.jpg" alt="Classic Car Image"
+               style="width: 298px; height: 166px;" ></div>
     </div>
 <p></p>
 
