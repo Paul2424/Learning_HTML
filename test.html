@@ -10,9 +10,14 @@
     
        li a{
            display: block;
-        float: left;
+           overflow:hidden;
+      
+}
 
-       }
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
 
 
 @media  screen and (max-width: 800px){
@@ -24,7 +29,7 @@
 </head>
 <body>
     <div style="background-color: black; display:block; margin:10px; font-size: 30px; overflow:hidden;">
-       <div>
+       <div >
         <ul>
          <li><a href="#home">Home</a></li>   
          <li><a href="#about">About</a></li>  
@@ -38,8 +43,9 @@
             <br />Yes it can be hectic at times but the feeling you get 
             when you make it work is just out of the world!</p>
             <a href="http://codearena.com" style="float:right; width: 30%;">Click here if you love coding</a>
-            <div style="float:center;width: auto;background-color:white;"><p style="float:center; color: #bebebe; margin-left: 20px;">
-                This is the main content; I guess</p></div>
+            <!--<p style="float:center;width: auto;background-color:white;">--><p style="float:center; color: #bebebe; width: 70%;
+                background-color: darkgoldenrod;">
+                This is the main content; I guess</p><!--</div>-->
 
             <div style="float: center; padding: 10px;" ><img src="Classic-Car-Wallpaper-HD-Desktop.jpg" alt="Classic Car Image"
                style="width: 298px; height: 166px;" ></div>
